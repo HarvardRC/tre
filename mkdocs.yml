@@ -1,5 +1,31 @@
 site_name: Harvard Research Computing Trusted Research Environment
 nav:
-  - Home: index.md
+  - Overview: index.md
+  - Trust:
+      - Data Provenance: trust/data-provenance.md
+      - Reproducibility: trust/reproducibility.md
+      - Security & Access: trust/security-access.md
+      - Compliance: trust/compliance.md
+  - Research:
+      - Research Lifecycle: research/research-lifecycle.md
+      - Data Engineering: research/data-engineering.md
+      - Analytics Toolkit: research/analytics-toolkit.md
+      - Federated Access: research/federated-access.md
+  - Environment:
+      - Architecture: environment/architecture.md
+      - Deployment Blueprint: environment/deployment-blueprint.md
+      - Operations Best Practice: environment/operations-best-practice.md
+  - Reference Case:
+      - Project Overview: reference-case/project-overview.md
+      - Implementation Journey: reference-case/implementation-journey.md
+      - Provenance in Action: reference-case/provenance-in-action.md
+      - Lessons Learned: reference-case/lessons-learned.md
+  - Team:
+      - Harvard Research Computing: team/harvard-research-computing.md
+      - Contributing Partners: team/contributing-partners.md
+  - Resources:
+      - Documentation: resources/documentation.md
+      - Compliance Matrix: resources/compliance-matrix.md
 theme:
   name: readthedocs
+  # (better we use material theme, needs to be installed on the target webserver)
