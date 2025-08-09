@@ -1,31 +1,59 @@
 site_name: Harvard Research Computing Trusted Research Environment
+
+theme:
+  name: material
+  features:
+    - navigation.tabs        # top horizontal tabs (1st level of nav)
+    - navigation.sections    # grouped sidebar per tab
+    - navigation.expand      # auto-expand current section in sidebar
+    - navigation.top         # back-to-top + sticky header
+    - search.suggest
+    - search.highlight
+
 nav:
   - Overview: index.md
+
   - Trust:
+      - trust/index.md
       - Data Provenance: trust/data-provenance.md
       - Reproducibility: trust/reproducibility.md
       - Security & Access: trust/security-access.md
       - Compliance: trust/compliance.md
+
   - Research:
+      - research/index.md
       - Research Lifecycle: research/research-lifecycle.md
       - Data Engineering: research/data-engineering.md
       - Analytics Toolkit: research/analytics-toolkit.md
       - Federated Access: research/federated-access.md
+
   - Environment:
+      - environment/index.md
       - Architecture: environment/architecture.md
       - Deployment Blueprint: environment/deployment-blueprint.md
       - Operations Best Practice: environment/operations-best-practice.md
+
   - Reference Case:
+      - reference-case/index.md
       - Project Overview: reference-case/project-overview.md
       - Implementation Journey: reference-case/implementation-journey.md
       - Provenance in Action: reference-case/provenance-in-action.md
       - Lessons Learned: reference-case/lessons-learned.md
+
   - Team:
+      - team/index.md
       - Harvard Research Computing: team/harvard-research-computing.md
       - Contributing Partners: team/contributing-partners.md
+
   - Resources:
+      - resources/index.md
       - Documentation: resources/documentation.md
       - Compliance Matrix: resources/compliance-matrix.md
-theme:
-  name: material
-  # (better we use material theme, needs to be installed on the target webserver)
+
+# Optional niceties (safe to keep or remove)
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
