@@ -23,7 +23,7 @@ theme:
   icon:
     logo: material/library
     repo: fontawesome/brands/github
-  extra_css:
+extra_css:
   - assets/harvard.css
 nav:
   - "Overview": index.md
