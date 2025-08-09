@@ -27,5 +27,5 @@ nav:
       - Documentation: resources/documentation.md
       - Compliance Matrix: resources/compliance-matrix.md
 theme:
-  name: readthedocs
+  name: material
   # (better we use material theme, needs to be installed on the target webserver)
