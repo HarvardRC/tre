@@ -15,11 +15,11 @@ theme:
     - content.code.copy        # copy button on code blocks
   palette:
    - scheme: default           # light
-      primary: custom
-      accent: custom
-    - scheme: slate            # optional dark mode
-      primary: custom
-      accent: custom
+     primary: custom
+     accent: custom
+   - scheme: slate             # optional dark mode
+     primary: custom
+     accent: custom
   icon:
     logo: material/library
     repo: fontawesome/brands/github
